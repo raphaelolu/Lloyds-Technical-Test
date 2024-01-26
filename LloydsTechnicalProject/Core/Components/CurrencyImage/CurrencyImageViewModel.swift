@@ -19,7 +19,7 @@ class CurrencyImageViewModel:ObservableObject{
     
     init(currency: Currency){
     self.currency = currency
-        getCurrencyImage(currency:  currency)
+        getCurrencyImage(currency:currency)
         addSubscribers()
     }
     

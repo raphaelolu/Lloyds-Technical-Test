@@ -16,10 +16,10 @@ protocol ViewModelFactory {
 
 struct Dependencies{
     
-    private let currencyImageService:CurrencyImageService
+    private let currencyImageService:CurrencyImageServiceProtocol
     private let homepageService:HompepageDataServicesProtocol
     
-    init(currencyImageService:CurrencyImageService = CurrencyImageService() ,homepageService:HompepageDataServicesProtocol = HompepageDataServices()) {
+    init(currencyImageService:CurrencyImageServiceProtocol = CurrencyImageService() ,homepageService:HompepageDataServicesProtocol = HompepageDataServices()) {
         self.currencyImageService = currencyImageService
         self.homepageService = homepageService
     }
