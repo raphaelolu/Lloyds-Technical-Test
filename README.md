@@ -10,7 +10,7 @@ Given more time I would implement the following:
 
 Implement UI testing to cover the the hompage flow from list to detail view
 
-In the case of the Currency image service this should be injected in into the view model using it. However this approach was carried out everywhere else.
+In the case of the Currency image service this should be injected in into the view model using it. However dependency injection  was carried out everywhere else.
 
 
 By raphael olumofe
